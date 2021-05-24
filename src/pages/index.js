@@ -27,9 +27,8 @@ const IndexPage = () => {
               gatsbyImageData(
                 placeholder: TRACED_SVG
                 formats: [AUTO, WEBP]
-                aspectRatio: 1.77
                 layout: FULL_WIDTH
-                quality: 99
+                quality: 75
               )
             }
           }
@@ -45,7 +44,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <Seo title="Tesla Landing Page" />
+      <Seo title="Home" />
       <Container>
         {dataCars &&
           dataCars.map(car => (

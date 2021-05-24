@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components"
 
 export const GlobalStyles = createGlobalStyle`
   * {
@@ -36,4 +36,4 @@ export const GlobalStyles = createGlobalStyle`
         transform: translateY(3px);
       }
     }
-`;
+`
