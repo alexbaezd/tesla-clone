@@ -28,7 +28,7 @@ const IndexPage = () => {
                 placeholder: TRACED_SVG
                 formats: [AUTO, WEBP]
                 layout: FULL_WIDTH
-                quality: 75
+                quality: 65
               )
             }
           }
